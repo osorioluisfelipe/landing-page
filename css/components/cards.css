@@ -1,0 +1,27 @@
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card {
+  border: 1px solid #A27035;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  display: block;
+  text-align: center;
+  width: 320px;
+  padding: 5px;
+}
+
+.card h4, .card p {
+  margin: 0 auto;
+  padding: 5px 5px;
+  width: 250px;
+}
+
+.card img {
+  height: 100px;
+  margin: 10px 10px;
+  padding: 5px 5px;
+}
